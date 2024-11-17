@@ -9,7 +9,7 @@ const Layout = () => {
       <div className="w-1/10">
         <Sidebar />
       </div>
-      <div className="flex flex-col w-4/5">
+      <div className="flex flex-col w-9/10">
         <Header />
         <div className="flex-1 p-4 overflow-auto">
           <Outlet />
